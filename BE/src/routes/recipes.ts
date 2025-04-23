@@ -5,7 +5,6 @@ import axios from "axios";
 config();
 const router = Router();
 
-// Получить все рецепты или с фильтрами
 router.get("/", async (req, res) => {
 	const { ingredient, country, category, search } = req.query;
 
