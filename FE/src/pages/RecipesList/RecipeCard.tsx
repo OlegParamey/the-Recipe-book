@@ -14,7 +14,7 @@ function RecipeCard({ recipe }: CardData) {
       active:scale-95 active:border-4"
 			onClick={() => navigate(`/recipe/${recipe.idMeal}`)}
 		>
-			<h2 className="text-center p-1 text-lg font-mono font-bold text-black">
+			<h2 className="text-center p-1 text-lg font-mono font-bold text-black tracking-tight">
 				{recipe.strMeal}
 			</h2>
 			<img

@@ -11,7 +11,7 @@ function RecipeHeader() {
 	let pageTitle = "All Recipes";
 
 	if (country) {
-		pageTitle = `Recipes from ${country}`;
+		pageTitle = `${country} Recipes`;
 	} else if (ingredient) {
 		pageTitle = `Recipes with ${ingredient}`;
 	} else if (category) {
