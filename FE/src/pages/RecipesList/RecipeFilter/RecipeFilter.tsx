@@ -51,8 +51,8 @@ function RecipeFilter() {
 	};
 
 	return (
-		<div className="w-full bg-amber-300 p-4 flex items-center justify-center gap-4">
-			<h1 className="font-bold font-mono text-rose-900">Filter Recipes:</h1>
+		<div className="w-full bg-stone-900 p-4 flex items-center justify-center gap-4 mb-3">
+			<h1 className="font-bold font-mono text-white text-lg">Filter Recipes:</h1>
 
 			<div className="flex gap-4">
 				<select

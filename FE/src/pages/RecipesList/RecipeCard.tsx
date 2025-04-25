@@ -10,8 +10,8 @@ function RecipeCard({ recipe }: CardData) {
 	return (
 		<div
 			className="bg-white h-70 flex flex-col justify-between items-center rounded-lg shadow-md 
-      border-2 duration-150 ease-in-out border-rose-200 hover:border-rose-600 hover:scale-101
-      active:scale-95 active:border-4"
+      border-2 duration-150 ease-in-out border-stone-200 hover:border-stone-600 hover:scale-101
+      active:scale-98 active:border-4"
 			onClick={() => navigate(`/recipe/${recipe.idMeal}`)}
 		>
 			<h2 className="text-center p-1 text-lg font-mono font-bold text-black tracking-tight">

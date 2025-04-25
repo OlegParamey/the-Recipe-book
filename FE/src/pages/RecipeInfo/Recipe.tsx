@@ -24,7 +24,7 @@ function Recipe({ recipe }: RecipeProps) {
 		}
 	}
 	return (
-		<div className="w-3/7 flex flex-col h-fit p-4 mb-4 ml-2 bg-white rounded-2xl shadow-2xl">
+		<div className="w-3/7 flex flex-col h-fit p-4 mb-4 ml-2 bg-white rounded-2xl shadow-2xl overflow-auto">
 			<div className="recipe-image">
 				<img
 					className="w-full  rounded-lg"
@@ -43,7 +43,7 @@ function Recipe({ recipe }: RecipeProps) {
 				<ul className="flex flex-col">
 					{ingredients.length > 0 ? (
 						ingredients.map((ingredient, index) => (
-							<li className="border-b" key={index}>
+							<li className="border-b text-xs sm:text-base" key={index}>
 								<Link
 									to={`../../recipes?ingredient=${
 										ingredient.split(" - ")[0]

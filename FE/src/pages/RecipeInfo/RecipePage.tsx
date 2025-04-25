@@ -22,7 +22,7 @@ function RecipePage({ recipe }: RecipeProps) {
 	return (
 		<>
 			<div className="bg-neutral-100">
-				<div className="text-center m-5 bg-white rounded-2xl p-2">
+				<div className="text-center m-5 bg-white shadow-lg rounded-2xl p-2">
 					<h2 className="text-3xl  font-bold">{recipe.strMeal}</h2>
 					<p className="hover:underline text-blue-900">
 						<Link to={`../../recipes?country=${recipe.strArea}`}>
